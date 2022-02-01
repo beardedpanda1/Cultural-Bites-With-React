@@ -1,3 +1,8 @@
+# Cultural Bites with React
+
+This project is an update to the first version of Cultural Bites using only Javascript, HTML, and CSS. Packed with 2 APIs this application gives thousands of recipes for you to try at the ease of a search bar. If youre unsure, just pick something random from the Search by Letter page! Using basic Javascipt functionality with the ease of ReactJS, this application is able to pull everything you need to make a desicion on what to cook or bake redirecting you to the source of the recipe!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
