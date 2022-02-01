@@ -83,7 +83,7 @@ function SearchBar(props) {
                 {
                 searchResult.meals.map((searchResults, index) =>
                     <ol key={index} >
-                        <table>
+                        <center><table>
                         <div className="Recipe">
                             <th><h2><div className="recipeTitle">
                                 {searchResults.strMeal}
@@ -98,7 +98,7 @@ function SearchBar(props) {
                             </div></td>
                                 <br />
                         </div>
-                        </table>
+                        </table></center>
                     </ol>
                 )
                 }

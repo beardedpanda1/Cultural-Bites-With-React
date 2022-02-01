@@ -20,17 +20,17 @@ export default function Home() {
             <center><h2 className="slideshowTitle">Here are some bites we think you should try!</h2></center>
             <div className="slideshow">
                 <img src="Images/Gyros.jpg" alt="1" />
-                <img src="Images/Birriatacos.jpg" alt="2" />
-                <img src="Images/Greencurry.jpg" alt="3" />
+                {/* <img src="Images/Birriatacos.jpg" alt="2" />
+                <img src="Images/Greencurry.jpg" alt="3" /> */}
                 <img src="Images/gulabjamun2.jpg" alt="4" />
-                <img src="Images/koreancorndogs.jpg" alt="5" />
-                <img src="Images/pizza.jpg" alt="6" />
-                <img src="Images/steak.jpg" alt="7" />
-                <img src="Images/sushi.jpg" alt="8" />
-                <img src="Images/koreanfriedchicken.jpg" alt="9" />
+                {/* <img src="Images/koreancorndogs.jpg" alt="5" /> */}
+                {/* <img src="Images/pizza.jpg" alt="6" /> */}
+                {/* <img src="Images/steak.jpg" alt="7" />
+                <img src="Images/sushi.jpg" alt="8" /> */}
+                {/* <img src="Images/koreanfriedchicken.jpg" alt="9" />
                 <img src="Images/nachos.jpg" alt="10" />
                 <img src="Images/lomein2.jpg" alt="11" />
-                <img src="Images/chickentikkamasala.jpg" alt="12" />
+                <img src="Images/chickentikkamasala.jpg" alt="12" /> */}
             </div>
         </div>
         

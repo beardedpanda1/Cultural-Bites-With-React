@@ -6,8 +6,8 @@ function MoreRecipes({recipe}) {
 
   const {label, image, url, ingredients} = recipe.recipe;
   return( 
-    <div className="moreRecipes">
-      <h3 className="labelTitle">{label}</h3>
+    <center><div className="moreRecipes">
+      <h2 className="labelTitle">{label}</h2>
       <br />
       <img src={image} alt={label} />
       <br />
@@ -15,7 +15,7 @@ function MoreRecipes({recipe}) {
       <br />
       <button className="button" onClick={() => setShow(!show)}>Ingredients</button>
       {show && <RecipeDetails ingredients={ingredients}/>}
-    </div>
+    </div></center>
   )
 }
 

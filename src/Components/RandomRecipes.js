@@ -34,7 +34,7 @@ export default function RandomRecipes() {
 
     return (
         <div className="recipes">
-            <h2 className="specificTitle"><center>Looking For Something Specific?</center></h2>
+            <h1 className="specificTitle"><center>Looking For Something Specific?</center></h1>
             <center><form className="search-form" onSubmit={onSubmit}>
                 {alert !== "" && <Alert alert={alert} />}
                 <input
